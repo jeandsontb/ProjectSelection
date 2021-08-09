@@ -23,13 +23,6 @@ class UpdateContactsService {
       throw new MessageError('Contato não encontrado!');
     }
 
-    //verifica e certifica que apenas um email pode ser colocado no sistema
-    const contactExists = await contactsRepository.findByName(data.email);
-
-    if (contactExists?.id !== data.id) {
-      throw new MessageError('Já existe um contato com esse e-mail na base.');
-    }
-
     contact.name = data.name;
     contact.lastname = data.lastname;
     contact.phone = data.phone;
