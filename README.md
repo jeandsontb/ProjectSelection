@@ -53,14 +53,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js][nodejs].
-Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
+Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode] e o [MySQL][mysql] mesmo que seja um servidor xamp ou wamp é necessário que ele esteja em execução antes de startar o servidor node
 
 
 1. Back End
 
 - Uso do banco mysql
 
-<p align="center">*** A pasta React pode tirar do projeto e colocar em outro local para execução ***</p>
+<p align="center">*** A pasta Frontend pode tirar do projeto e colocar em outro local para execução ***</p>
 
 01 - Após abrir a pasta do projeto rodar o comando -  npm install
 
@@ -75,7 +75,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode][vsco
 
 1. Front End
 
-01 - Alocar a parta React para outro local
+01 - Alocar a parta Frontend para outro local
 
 02 - Rodar o comando para instalar todas as biliotecas necessárias -  npm install
 
@@ -96,3 +96,4 @@ Feito com ❤️ por Jeandson Tenorio 👋🏽 [Entre em contato!](https://www.l
 [typeorm]: https://typeorm.io/#/
 [typescript]: https://www.typescriptlang.org/
 [stylecomponents]: https://styled-components.com/
+[mysql]: https://www.mysql.com/
